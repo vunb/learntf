@@ -56,3 +56,9 @@ with tf.Session() as session:
         x = x + 1
         print(session.run(x))
 ```
+
+Bài tập 4:
+==========
+
+Sử dụng kết quả bài tập (2) và (3) viết một chương trình tính giá trị trung bình trong mỗi vòng lặp của 1 mảng 10,000 phần tử ngẫu nhiên có giá trị trong khoảng [0, 999], và lưu trữ giá trị trung bình vào 1 biến Tensor, đồng thời cập nhật lại giá trị trung bình đó trong mỗi lần lặp.
+
