@@ -13,6 +13,7 @@ print(y)                                        # In ra kiểu dữ liệu y, c�
 
 model = tf.global_variables_initializer()       # Khởi tạo một đồ thị phụ thuộc giữa các biến, y phụ thuộc vào x
                                                 # Nếu không sẽ báo lỗi, biến phụ thuộc y chưa được khởi tạo
+                                                # Chú ý, lúc này giá trị của y vẫn chưa được tính toán cho đến lúc gọi hàm run()
 
 with tf.Session() as session:
     session.run(model)
